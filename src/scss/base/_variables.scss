@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,900;0,9..40,1000;1,9..40,600;1,9..40,700&display=swap');
+
+
+// Fuentes
+$fuente_principal: 'DM Sans', sans-serif;
+
+// Tamaño de Media Queries
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+
+// Colores
+$negro: #000000;
+$amarillo: #E8641C;;
+$verde: #511013;
+$blanco: #FFFFFF;
+$gris: #9D9D9C;
+$grisOscuro: #575756;
+$green: #005200;
+
+$separacion: 5rem;
+
+// Fuentes
+$extradelgada: 200;
+$delgada: 300;
+$regular : 400;
+$mediana: 500;
+$semibold: 600;
+$bold: 700;
+$black: 900;
+$weight: 1000;

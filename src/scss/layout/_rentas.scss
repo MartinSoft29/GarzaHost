@@ -1,0 +1,73 @@
+@include tablet{
+    .contenedor-rentas{
+        @include grid(3, 2rem);
+    }
+}
+
+.renta{
+    background-color: lighten($gris, 30);
+    border: 3px solid darken($gris, 5);
+    margin-bottom: 2rem;
+
+    .contenido-anuncio{
+        padding: 2rem;
+
+        .ubicacion{
+            font-weight:$weight;
+            color: $amarillo;
+            text-decoration: none;
+        }
+    }
+
+    h3, p{
+        margin: 0;
+    }
+}
+
+.precio{
+    color: $green;
+    font-weight: $weight;
+    font-size: 3rem;
+}
+
+.iconos-caracteristicas{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    max-width: 40rem;
+
+    li{
+        flex: 2;
+        display: flex;
+
+        img{
+            flex: 0 0 0rem;
+            margin-right: 2rem;
+        }
+
+        p{
+            font-weight: $weight;
+            font-size: 2rem;
+        }
+    }
+}
+
+.titulo1{
+    h2{
+        font-weight: $bold;
+        font-size: 3.4rem;
+        margin-bottom: 0rem;
+    }
+}
+
+.resumen-propiedad {
+
+    .descripcion {
+        p {
+            width: 8rem;
+            height: 7rem;
+            overflow: scroll;
+
+        }
+    }
+}

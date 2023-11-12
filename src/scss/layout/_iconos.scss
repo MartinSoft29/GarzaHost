@@ -1,0 +1,27 @@
+.titulo{
+    h1{
+        font-weight: $bold;
+        font-size: 6rem;
+    }
+}
+
+@include tablet{
+    .iconos-nosotros{
+        @include grid(2, 6rem)
+    }
+}
+
+
+.icono{
+    text-align: center;
+    img{
+        height: 10rem;
+    }
+
+    h3{
+        text-transform: uppercase;
+        font-weight: $bold;
+        font-size: 3rem;
+        margin-bottom: 0rem;
+    }
+}

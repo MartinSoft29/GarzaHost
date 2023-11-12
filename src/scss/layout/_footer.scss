@@ -1,0 +1,40 @@
+.footer{
+    padding: 0;
+    background-color: $grisOscuro;
+
+    .contenedor-footer{
+        padding-top: 0;
+    }
+
+    .navegacion1{
+
+        @include tablet {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    
+        a {
+            color: $blanco;
+            text-decoration: none;
+            font-size: 1.3rem;
+            display: block;
+            text-align: center;
+    
+            @include tablet {
+                margin-right: 2rem;
+                font-size: 1.3rem;
+    
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .copyright{
+        color: $blanco;
+        text-align: center;
+        font-size: 1rem;
+    }
+}

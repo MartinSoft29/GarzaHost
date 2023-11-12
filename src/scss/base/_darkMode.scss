@@ -1,0 +1,43 @@
+.dark-mode{
+    background-color: darken($grisOscuro, 40);
+
+    p{
+        color: $blanco;
+    }
+    a, h1, h2, h3, h4{
+        color: $gris;
+    }
+
+    .renta, .resumen-propiedad{
+        background-color: darken($grisOscuro, 26);
+        border: 3px solid darken($gris, 5);
+
+        .precio{
+            color: $green;
+        }
+
+        .icono{
+            filter: invert(100%);
+        }
+    }
+
+    .texto-nosotros blockquote{
+        color: $blanco;
+    }
+
+    .formulario{
+        label,
+        legend,
+        p{
+            color: $blanco;
+        }
+
+        input:not([type="submit"]),
+        textarea,
+        select{
+            background-color: $grisOscuro;
+            border: 2px solid $grisOscuro;
+            color: $blanco;
+        }
+    }
+}
