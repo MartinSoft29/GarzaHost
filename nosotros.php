@@ -20,10 +20,7 @@
                     Descubre Tu Próximo Hogar en Tlahuelilpan con Nosotros
                 </blockquote>
 
-                <p>Bienvenidos a Garza Host, una plataforma digital dedicada a simplificar y mejorar la experiencia
-                    de búsqueda y renta de alojamientos en Tlahuelilpan. Somos un equipo comprometido 
-                    con la creación de una solución eficiente para propietarios y buscadores de propiedades
-                    en esta región.
+                <p>Tibu gay
                 </p>
 
                 <h3>Nuestra Misión:</h3>
